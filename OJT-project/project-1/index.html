@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J</title>
+</head>
+<style>
+    *{
+        text-align: justify;
+    }
+    .active{
+        border-bottom: 2px solid black;
+    }
+    header {
+        display: flex;
+    }
+
+    header>ul {
+        list-style: none;
+        display: flex;
+    }
+
+    header>ul>li {
+        justify-content: space-between;
+    }
+
+    .logo {
+        height: 10vh;
+    }
+
+    .self {
+        display: flex;
+
+    }
+
+    .school {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    section>img{
+        width: 10vh;
+    }
+    .picture{
+        width: 25%;
+    }
+</style>
+
+<body>
+    <header>
+        <img class="logo" src="Originl_logo.jpg" alt="logo">
+        <ul>
+            <li class="active">Home</li>
+            <li>Categories</li>
+            <li>FAQ</li>
+        </ul>
+    </header>
+    <section class="self">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero maxime laborum neque adipisci ratione
+            explicabo hic, similique saepe id in aliquam tempora, aspernatur velit doloribus ullam fuga. Sunt deserunt
+            corrupti iure maiores molestias voluptate temporibus veritatis excepturi nobis aspernatur officiis eos, quae
+            exercitationem accusamus deleniti quis, veniam, cum laudantium similique!
+        </p>
+        <img class="picture" src="photo.jpg" alt="self photo">
+    </section>
+    <section class="school">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aliquid impedit totam repellendus ut
+            architecto ab dignissimos voluptatum non placeat aliquam illo blanditiis perferendis fugit magnam autem,
+            minus recusandae? Veritatis velit, numquam saepe doloremque deserunt labore nostrum corrupti ducimus itaque
+            sed perferendis aliquam consequatur dolore amet natus voluptas hic aperiam?
+        </p>
+        <img class="picture" src="photo.jpg" alt="school photo">
+    </section>
+</body>
+
+</html>
