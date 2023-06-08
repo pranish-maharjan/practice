@@ -1,0 +1,31 @@
+.notification{
+    font-size: 2rem;
+    /* text-align: center; */
+    background-color: rgb(0, 82, 206);
+    height: 40vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+body{
+    height: 200vh;
+}
+.notification-count{
+    /* margin-left: 5%; */
+    background-color: red;
+    padding: 5px;
+    border-radius: 50%;
+position: absolute;
+top: 1%;
+right: 1%;
+}
+
+.fix{
+    background-color: #e65454;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
